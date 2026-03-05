@@ -19,3 +19,10 @@ export BAT_THEME="Catppuccin Mocha"
 
 # Nvim
 export MYNVIMRC="$HOME/.config/nvim/init.lua"
+
+# Dotnet
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
+
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/hphats/.dotnet/tools"

@@ -27,6 +27,7 @@ return {
         "typescript",
         "dockerfile",
         "tsx",
+        "sql",
       },
       sync_install = false,
       highlight = { enable = true },

@@ -7,11 +7,13 @@ return {
       formatters_by_ft = {
         lua = { "stylua" },
         xml = { "lemminx" },
+        nix = { "nixpkgs-fmt" },
       },
 
       format_on_save = {
-        timeout_ms = 500,
-        lsp_format = "fallback",
+        lsp_fallback = true,
+        async = false,
+        timeout_ms = 300,
       },
     })
 

@@ -30,6 +30,7 @@ return {
           },
         },
         exclude = {
+          ".venv",
           "node_modules",
           ".git",
           "*.lock",

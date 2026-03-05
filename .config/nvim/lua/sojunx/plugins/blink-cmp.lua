@@ -57,12 +57,6 @@ return {
     signature = { enabled = true },
     sources = { default = { "lsp", "path", "snippets", "buffer" } },
     fuzzy = { implementation = "prefer_rust_with_warning" },
-
-    -- windows = {
-    --   autocomplete = { border = "rounded" },
-    --   documentation = { border = "rounded" },
-    --   signature = { border = "rounded" },
-    -- },
   },
   opts_extend = { "sources.default" },
 }
